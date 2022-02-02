@@ -1,0 +1,37 @@
+html, body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Lato, sans-serif;
+    font-size: 1rem;
+    color: #666;
+    font-weight: 400;
+    height: 100%;
+}
+
+.background--image1{
+    background-image: url(./images/bg1.jpg);
+    min-height: 100% ;
+}
+
+.background--image2{
+    background-image: url(./images/bg2.jpg);
+    height: 80% ;
+}
+.background--image3{
+    background-image: url(./images/bg3.jpg);
+    height: 80% ;
+}
+.background--image4{
+    background-image: url(./images/bg4.jpg);
+    height: 80% ;
+}
+
+.background--image1,
+.background--image2,
+.background--image3,
+.background--image4{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
