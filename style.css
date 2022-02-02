@@ -86,6 +86,7 @@ html, body{
 }
 
 .section--dark{
-    background-color: #fff;
+    background-color: #414141;
     line-height: 1.8rem;
+    color: white;
 }
